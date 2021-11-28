@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Edit Deck</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    </head>
+    <body>
+        <h1>Edit Deck</h1>
+        <h2>{{message}}</h2>
+        {% if card_list | length %}
+            <table>
+                <tr>
+                    <th>Card No.</th>
+                    <th>Card Front</th>
+                    <th>Card Back</th>
+                    <th>Edit Card</th>
+                    <th>Delete Card</th>
+                </tr>
+                {% for card in card_list %}
+                <tr>
+                    <td>{{loop.index}}</td>
+                    <td>{{card["front"]}}</td>
+                    <td>{{card["back"]}}</td>
+                    <td><a href = '/edit_card/{{user_id}}/{{deck_id}}/{{card["card_id"]}}'>Edit</a></td>
+                    <td><a href = '/delete_card/{{user_id}}/{{deck_id}}/{{card["card_id"]}}'>Delete</a></td>
+                </tr>
+                {% endfor %}
+            </table>    
+        {% else %}
+            <p> No Card found. Create a card now!</p>
+        {% endif %}  
+        <br>
+        <br>
+        <button><a href = '/create_card/{{user_id}}/{{deck_id}}'>+ Add a new card</a></button> 
+        <br>
+        <br>
+        <a href = "/dashboard/{{user_id}}">Back to Dashboard</a>
+    </body>
+</html>

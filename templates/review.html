@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Review the Deck</title>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/custom.js') }}"></script>
+    </head>
+    <body>
+        <h1>Review the Deck</h1>
+        <h2><i>Front:</i> {{card["front"]}}</h2>
+        <h3 id = "card_answer" style="visibility: hidden;"><i>Back :</i> {{card["back"]}}</h3>
+        <p onclick="answer()"><a href = "#">Click here for answer</a></p>
+        <form action = '/review_deck/{{user_id}}/{{deck_id}}/{{card["card_id"]}}' method="POST">
+            <label>Easy</label>
+            <input type = "radio" name = "difficulty" value = "easy" required>
+            <label>Medium</label>
+            <input type = "radio" name = "difficulty" value = "medium">
+            <label>Difficult</label>
+            <input type = "radio" name = "difficulty" value = "difficult">
+            <br>
+            <br>
+            <input type="submit" value = "Submit">
+            <br>
+            <br>
+            <a href = "/dashboard/{{user_id}}">Back to Dashboard</a>
+        </form>
+    </body>
+</html>

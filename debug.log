@@ -1,0 +1,435 @@
+2021-11-28 11:01:16,031 INFO main MainThread : Staring Local Development.
+2021-11-28 11:01:16,032 INFO main MainThread : App setup complete
+2021-11-28 11:01:16,057 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-28 11:01:20,500 INFO main Thread-1 : Login page entered for user
+2021-11-28 11:01:20,507 INFO werkzeug Thread-1 : 127.0.0.1 - - [28/Nov/2021 11:01:20] "GET / HTTP/1.1" 200 -
+2021-11-28 11:01:27,316 INFO main Thread-2 : Login not successful. Routing back to Login Page
+2021-11-28 11:01:27,317 INFO werkzeug Thread-2 : 127.0.0.1 - - [28/Nov/2021 11:01:27] "POST / HTTP/1.1" 200 -
+2021-11-28 11:01:34,259 INFO main Thread-3 : Login not successful. Routing back to Login Page
+2021-11-28 11:01:34,259 INFO werkzeug Thread-3 : 127.0.0.1 - - [28/Nov/2021 11:01:34] "POST / HTTP/1.1" 200 -
+2021-11-28 11:01:36,402 INFO main Thread-4 : add_user page entered
+2021-11-28 11:01:36,403 INFO werkzeug Thread-4 : 127.0.0.1 - - [28/Nov/2021 11:01:36] "GET /add_user HTTP/1.1" 200 -
+2021-11-28 11:01:40,187 INFO main Thread-5 : No exception, hence commit
+2021-11-28 11:01:40,206 INFO main Thread-5 : Creation of user profile successful. Routing to Dashboard
+2021-11-28 11:01:40,207 INFO werkzeug Thread-5 : 127.0.0.1 - - [28/Nov/2021 11:01:40] "POST /add_user HTTP/1.1" 200 -
+2021-11-28 11:02:03,511 INFO main Thread-6 : add_user page entered
+2021-11-28 11:02:03,511 INFO werkzeug Thread-6 : 127.0.0.1 - - [28/Nov/2021 11:02:03] "GET /add_user HTTP/1.1" 200 -
+2021-11-28 11:02:09,362 INFO main Thread-7 : No exception, hence commit
+2021-11-28 11:02:09,378 INFO main Thread-7 : Creation of user profile successful. Routing to Dashboard
+2021-11-28 11:02:09,378 INFO werkzeug Thread-7 : 127.0.0.1 - - [28/Nov/2021 11:02:09] "POST /add_user HTTP/1.1" 200 -
+2021-11-28 11:02:13,106 INFO main Thread-8 : Login successful. Routing to Dashboard
+2021-11-28 11:02:13,107 INFO werkzeug Thread-8 : 127.0.0.1 - - [28/Nov/2021 11:02:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-11-28 11:02:13,112 INFO main Thread-9 : Routed to Dashboard successful.
+2021-11-28 11:02:13,118 INFO werkzeug Thread-9 : 127.0.0.1 - - [28/Nov/2021 11:02:13] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:02:16,061 INFO main Thread-10 : Routed to Create Deck page successful.
+2021-11-28 11:02:16,063 INFO werkzeug Thread-10 : 127.0.0.1 - - [28/Nov/2021 11:02:16] "GET /create_deck/1 HTTP/1.1" 200 -
+2021-11-28 11:02:22,314 INFO main Thread-11 : No exception, hence commit
+2021-11-28 11:02:22,339 INFO main Thread-11 : No exception, hence commit
+2021-11-28 11:02:22,359 INFO main Thread-11 : No exception, hence commit
+2021-11-28 11:02:22,367 INFO main Thread-11 : Creation of deck successful. Routing to Dashboard
+2021-11-28 11:02:22,368 INFO werkzeug Thread-11 : 127.0.0.1 - - [28/Nov/2021 11:02:22] "[32mPOST /create_deck/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:02:22,380 INFO main Thread-12 : Routed to Dashboard successful.
+2021-11-28 11:02:22,380 INFO werkzeug Thread-12 : 127.0.0.1 - - [28/Nov/2021 11:02:22] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:02:25,267 INFO main Thread-13 : Routed to Edit Deck page successful.
+2021-11-28 11:02:25,270 INFO werkzeug Thread-13 : 127.0.0.1 - - [28/Nov/2021 11:02:25] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:02:39,789 INFO main Thread-14 : Routed to Create Card page successful.
+2021-11-28 11:02:39,790 INFO werkzeug Thread-14 : 127.0.0.1 - - [28/Nov/2021 11:02:39] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:02:43,886 INFO main Thread-15 : No exception, hence commit
+2021-11-28 11:02:43,907 INFO main Thread-15 : No exception, hence commit
+2021-11-28 11:02:43,917 INFO main Thread-15 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:02:43,918 INFO werkzeug Thread-15 : 127.0.0.1 - - [28/Nov/2021 11:02:43] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:02:43,931 INFO main Thread-16 : Routed to Edit Deck page successful.
+2021-11-28 11:02:43,931 INFO werkzeug Thread-16 : 127.0.0.1 - - [28/Nov/2021 11:02:43] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:02:45,886 INFO main Thread-17 : Routed to Create Card page successful.
+2021-11-28 11:02:45,886 INFO werkzeug Thread-17 : 127.0.0.1 - - [28/Nov/2021 11:02:45] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:02:57,264 INFO main Thread-18 : No exception, hence commit
+2021-11-28 11:02:57,283 INFO main Thread-18 : No exception, hence commit
+2021-11-28 11:02:57,293 INFO main Thread-18 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:02:57,295 INFO werkzeug Thread-18 : 127.0.0.1 - - [28/Nov/2021 11:02:57] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:02:57,309 INFO main Thread-19 : Routed to Edit Deck page successful.
+2021-11-28 11:02:57,310 INFO werkzeug Thread-19 : 127.0.0.1 - - [28/Nov/2021 11:02:57] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:02:58,147 INFO main Thread-20 : Routed to Create Card page successful.
+2021-11-28 11:02:58,147 INFO werkzeug Thread-20 : 127.0.0.1 - - [28/Nov/2021 11:02:58] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:03:44,965 INFO main Thread-21 : No exception, hence commit
+2021-11-28 11:03:44,990 INFO main Thread-21 : No exception, hence commit
+2021-11-28 11:03:45,003 INFO main Thread-21 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:03:45,003 INFO werkzeug Thread-21 : 127.0.0.1 - - [28/Nov/2021 11:03:45] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:03:45,016 INFO main Thread-22 : Routed to Edit Deck page successful.
+2021-11-28 11:03:45,016 INFO werkzeug Thread-22 : 127.0.0.1 - - [28/Nov/2021 11:03:45] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:01,641 INFO main Thread-23 : Routed to Create Card page successful.
+2021-11-28 11:04:01,642 INFO werkzeug Thread-23 : 127.0.0.1 - - [28/Nov/2021 11:04:01] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:07,574 INFO main Thread-24 : No exception, hence commit
+2021-11-28 11:04:07,593 INFO main Thread-24 : No exception, hence commit
+2021-11-28 11:04:07,603 INFO main Thread-24 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:04:07,604 INFO werkzeug Thread-24 : 127.0.0.1 - - [28/Nov/2021 11:04:07] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:07,618 INFO main Thread-25 : Routed to Edit Deck page successful.
+2021-11-28 11:04:07,618 INFO werkzeug Thread-25 : 127.0.0.1 - - [28/Nov/2021 11:04:07] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:09,579 INFO main Thread-26 : Routed to Dashboard successful.
+2021-11-28 11:04:09,579 INFO werkzeug Thread-26 : 127.0.0.1 - - [28/Nov/2021 11:04:09] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:04:10,748 INFO main Thread-27 : Routed to Review page successful.
+2021-11-28 11:04:10,750 INFO werkzeug Thread-27 : 127.0.0.1 - - [28/Nov/2021 11:04:10] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:10,885 INFO werkzeug Thread-28 : 127.0.0.1 - - [28/Nov/2021 11:04:10] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:16,789 INFO main Thread-29 : No exception, hence commit
+2021-11-28 11:04:16,804 INFO main Thread-29 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:16,815 INFO main Thread-29 : Average score calculated successfully.
+2021-11-28 11:04:16,815 INFO main Thread-29 : Time stored for updation.
+2021-11-28 11:04:16,815 INFO main Thread-29 : No exception, hence commit
+2021-11-28 11:04:16,824 INFO main Thread-29 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:16,833 INFO main Thread-29 : No exception, hence commit
+2021-11-28 11:04:16,842 INFO main Thread-29 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:16,850 INFO main Thread-29 : No exception, hence commit
+2021-11-28 11:04:16,861 INFO main Thread-29 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:16,862 INFO werkzeug Thread-29 : 127.0.0.1 - - [28/Nov/2021 11:04:16] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:16,876 INFO main Thread-30 : Routed to Review page successful.
+2021-11-28 11:04:16,877 INFO werkzeug Thread-30 : 127.0.0.1 - - [28/Nov/2021 11:04:16] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:16,892 INFO werkzeug Thread-31 : 127.0.0.1 - - [28/Nov/2021 11:04:16] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:20,285 INFO main Thread-32 : No exception, hence commit
+2021-11-28 11:04:20,298 INFO main Thread-32 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:20,307 INFO main Thread-32 : Average score calculated successfully.
+2021-11-28 11:04:20,307 INFO main Thread-32 : Time stored for updation.
+2021-11-28 11:04:20,308 INFO main Thread-32 : No exception, hence commit
+2021-11-28 11:04:20,316 INFO main Thread-32 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:20,326 INFO main Thread-32 : No exception, hence commit
+2021-11-28 11:04:20,333 INFO main Thread-32 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:20,340 INFO main Thread-32 : No exception, hence commit
+2021-11-28 11:04:20,345 INFO main Thread-32 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:20,345 INFO werkzeug Thread-32 : 127.0.0.1 - - [28/Nov/2021 11:04:20] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:20,358 INFO main Thread-33 : Routed to Review page successful.
+2021-11-28 11:04:20,359 INFO werkzeug Thread-33 : 127.0.0.1 - - [28/Nov/2021 11:04:20] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:20,375 INFO werkzeug Thread-34 : 127.0.0.1 - - [28/Nov/2021 11:04:20] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:25,000 INFO main Thread-35 : No exception, hence commit
+2021-11-28 11:04:25,007 INFO main Thread-35 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:25,016 INFO main Thread-35 : Average score calculated successfully.
+2021-11-28 11:04:25,017 INFO main Thread-35 : Time stored for updation.
+2021-11-28 11:04:25,017 INFO main Thread-35 : No exception, hence commit
+2021-11-28 11:04:25,023 INFO main Thread-35 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:25,033 INFO main Thread-35 : No exception, hence commit
+2021-11-28 11:04:25,038 INFO main Thread-35 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:25,046 INFO main Thread-35 : No exception, hence commit
+2021-11-28 11:04:25,052 INFO main Thread-35 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:25,052 INFO werkzeug Thread-35 : 127.0.0.1 - - [28/Nov/2021 11:04:25] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:25,065 INFO main Thread-36 : Routed to Review page successful.
+2021-11-28 11:04:25,066 INFO werkzeug Thread-36 : 127.0.0.1 - - [28/Nov/2021 11:04:25] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:25,081 INFO werkzeug Thread-37 : 127.0.0.1 - - [28/Nov/2021 11:04:25] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:27,074 INFO main Thread-38 : No exception, hence commit
+2021-11-28 11:04:27,084 INFO main Thread-38 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:27,094 INFO main Thread-38 : Average score calculated successfully.
+2021-11-28 11:04:27,094 INFO main Thread-38 : Time stored for updation.
+2021-11-28 11:04:27,095 INFO main Thread-38 : No exception, hence commit
+2021-11-28 11:04:27,100 INFO main Thread-38 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:27,110 INFO main Thread-38 : No exception, hence commit
+2021-11-28 11:04:27,117 INFO main Thread-38 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:27,127 INFO main Thread-38 : No exception, hence commit
+2021-11-28 11:04:27,134 INFO main Thread-38 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:27,135 INFO werkzeug Thread-38 : 127.0.0.1 - - [28/Nov/2021 11:04:27] "[32mPOST /review_deck/1/1/2 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:27,147 INFO main Thread-39 : Routed to Review page successful.
+2021-11-28 11:04:27,148 INFO werkzeug Thread-39 : 127.0.0.1 - - [28/Nov/2021 11:04:27] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:27,161 INFO werkzeug Thread-40 : 127.0.0.1 - - [28/Nov/2021 11:04:27] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:32,004 INFO main Thread-41 : No exception, hence commit
+2021-11-28 11:04:32,018 INFO main Thread-41 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:32,028 INFO main Thread-41 : Average score calculated successfully.
+2021-11-28 11:04:32,028 INFO main Thread-41 : Time stored for updation.
+2021-11-28 11:04:32,028 INFO main Thread-41 : No exception, hence commit
+2021-11-28 11:04:32,035 INFO main Thread-41 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:32,045 INFO main Thread-41 : No exception, hence commit
+2021-11-28 11:04:32,051 INFO main Thread-41 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:32,059 INFO main Thread-41 : No exception, hence commit
+2021-11-28 11:04:32,066 INFO main Thread-41 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:32,067 INFO werkzeug Thread-41 : 127.0.0.1 - - [28/Nov/2021 11:04:32] "[32mPOST /review_deck/1/1/3 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:32,078 INFO main Thread-42 : Routed to Review page successful.
+2021-11-28 11:04:32,079 INFO werkzeug Thread-42 : 127.0.0.1 - - [28/Nov/2021 11:04:32] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:32,095 INFO werkzeug Thread-43 : 127.0.0.1 - - [28/Nov/2021 11:04:32] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:33,867 INFO main Thread-44 : No exception, hence commit
+2021-11-28 11:04:33,883 INFO main Thread-44 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:33,894 INFO main Thread-44 : Average score calculated successfully.
+2021-11-28 11:04:33,894 INFO main Thread-44 : Time stored for updation.
+2021-11-28 11:04:33,894 INFO main Thread-44 : No exception, hence commit
+2021-11-28 11:04:33,902 INFO main Thread-44 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:33,910 INFO main Thread-44 : No exception, hence commit
+2021-11-28 11:04:33,916 INFO main Thread-44 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:33,925 INFO main Thread-44 : No exception, hence commit
+2021-11-28 11:04:33,931 INFO main Thread-44 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:33,932 INFO werkzeug Thread-44 : 127.0.0.1 - - [28/Nov/2021 11:04:33] "[32mPOST /review_deck/1/1/2 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:33,944 INFO main Thread-45 : Routed to Review page successful.
+2021-11-28 11:04:33,944 INFO werkzeug Thread-45 : 127.0.0.1 - - [28/Nov/2021 11:04:33] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:33,955 INFO werkzeug Thread-46 : 127.0.0.1 - - [28/Nov/2021 11:04:33] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:38,633 INFO main Thread-47 : No exception, hence commit
+2021-11-28 11:04:38,646 INFO main Thread-47 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:38,656 INFO main Thread-47 : Average score calculated successfully.
+2021-11-28 11:04:38,656 INFO main Thread-47 : Time stored for updation.
+2021-11-28 11:04:38,656 INFO main Thread-47 : No exception, hence commit
+2021-11-28 11:04:38,663 INFO main Thread-47 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:38,672 INFO main Thread-47 : No exception, hence commit
+2021-11-28 11:04:38,678 INFO main Thread-47 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:38,685 INFO main Thread-47 : No exception, hence commit
+2021-11-28 11:04:38,692 INFO main Thread-47 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:38,693 INFO werkzeug Thread-47 : 127.0.0.1 - - [28/Nov/2021 11:04:38] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:38,704 INFO main Thread-48 : Routed to Review page successful.
+2021-11-28 11:04:38,705 INFO werkzeug Thread-48 : 127.0.0.1 - - [28/Nov/2021 11:04:38] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:38,717 INFO werkzeug Thread-49 : 127.0.0.1 - - [28/Nov/2021 11:04:38] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:40,520 INFO main Thread-50 : No exception, hence commit
+2021-11-28 11:04:40,535 INFO main Thread-50 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:04:40,544 INFO main Thread-50 : Average score calculated successfully.
+2021-11-28 11:04:40,544 INFO main Thread-50 : Time stored for updation.
+2021-11-28 11:04:40,544 INFO main Thread-50 : No exception, hence commit
+2021-11-28 11:04:40,553 INFO main Thread-50 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:04:40,561 INFO main Thread-50 : No exception, hence commit
+2021-11-28 11:04:40,565 INFO main Thread-50 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:04:40,574 INFO main Thread-50 : No exception, hence commit
+2021-11-28 11:04:40,579 INFO main Thread-50 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:04:40,580 INFO werkzeug Thread-50 : 127.0.0.1 - - [28/Nov/2021 11:04:40] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:04:40,591 INFO main Thread-51 : Routed to Review page successful.
+2021-11-28 11:04:40,592 INFO werkzeug Thread-51 : 127.0.0.1 - - [28/Nov/2021 11:04:40] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:40,604 INFO werkzeug Thread-52 : 127.0.0.1 - - [28/Nov/2021 11:04:40] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:04:41,646 INFO main Thread-53 : Routed to Dashboard successful.
+2021-11-28 11:04:41,647 INFO werkzeug Thread-53 : 127.0.0.1 - - [28/Nov/2021 11:04:41] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:04:44,913 INFO main Thread-54 : Routed to Edit Deck page successful.
+2021-11-28 11:04:44,914 INFO werkzeug Thread-54 : 127.0.0.1 - - [28/Nov/2021 11:04:44] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:04:59,016 INFO main Thread-55 : Routed to Create Card page successful.
+2021-11-28 11:04:59,017 INFO werkzeug Thread-55 : 127.0.0.1 - - [28/Nov/2021 11:04:59] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:03,214 INFO main Thread-56 : No exception, hence commit
+2021-11-28 11:05:03,238 INFO main Thread-56 : No exception, hence commit
+2021-11-28 11:05:03,243 INFO main Thread-56 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:05:03,244 INFO werkzeug Thread-56 : 127.0.0.1 - - [28/Nov/2021 11:05:03] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:03,258 INFO main Thread-57 : Routed to Edit Deck page successful.
+2021-11-28 11:05:03,258 INFO werkzeug Thread-57 : 127.0.0.1 - - [28/Nov/2021 11:05:03] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:04,069 INFO main Thread-58 : Routed to Create Card page successful.
+2021-11-28 11:05:04,070 INFO werkzeug Thread-58 : 127.0.0.1 - - [28/Nov/2021 11:05:04] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:07,266 INFO main Thread-59 : No exception, hence commit
+2021-11-28 11:05:07,285 INFO main Thread-59 : No exception, hence commit
+2021-11-28 11:05:07,291 INFO main Thread-59 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:05:07,292 INFO werkzeug Thread-59 : 127.0.0.1 - - [28/Nov/2021 11:05:07] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:07,305 INFO main Thread-60 : Routed to Edit Deck page successful.
+2021-11-28 11:05:07,306 INFO werkzeug Thread-60 : 127.0.0.1 - - [28/Nov/2021 11:05:07] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:09,027 INFO main Thread-61 : No exception, hence commit
+2021-11-28 11:05:09,040 INFO main Thread-61 : Deletioon of card successful.
+2021-11-28 11:05:09,041 INFO werkzeug Thread-61 : 127.0.0.1 - - [28/Nov/2021 11:05:09] "[32mGET /delete_card/1/1/6 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:09,055 INFO main Thread-62 : Routed to Edit Deck page successful.
+2021-11-28 11:05:09,055 INFO werkzeug Thread-62 : 127.0.0.1 - - [28/Nov/2021 11:05:09] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:09,765 INFO main Thread-63 : Routed to Create Card page successful.
+2021-11-28 11:05:09,765 INFO werkzeug Thread-63 : 127.0.0.1 - - [28/Nov/2021 11:05:09] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:20,343 INFO main Thread-64 : No exception, hence commit
+2021-11-28 11:05:20,366 INFO main Thread-64 : No exception, hence commit
+2021-11-28 11:05:20,372 INFO main Thread-64 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:05:20,374 INFO werkzeug Thread-64 : 127.0.0.1 - - [28/Nov/2021 11:05:20] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:20,388 INFO main Thread-65 : Routed to Edit Deck page successful.
+2021-11-28 11:05:20,388 INFO werkzeug Thread-65 : 127.0.0.1 - - [28/Nov/2021 11:05:20] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:30,751 INFO main Thread-66 : Routed to Create Card page successful.
+2021-11-28 11:05:30,751 INFO werkzeug Thread-66 : 127.0.0.1 - - [28/Nov/2021 11:05:30] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:35,403 INFO main Thread-67 : No exception, hence commit
+2021-11-28 11:05:35,425 INFO main Thread-67 : No exception, hence commit
+2021-11-28 11:05:35,430 INFO main Thread-67 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:05:35,431 INFO werkzeug Thread-67 : 127.0.0.1 - - [28/Nov/2021 11:05:35] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:35,444 INFO main Thread-68 : Routed to Edit Deck page successful.
+2021-11-28 11:05:35,445 INFO werkzeug Thread-68 : 127.0.0.1 - - [28/Nov/2021 11:05:35] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:52,466 INFO main Thread-69 : Routed to Create Card page successful.
+2021-11-28 11:05:52,467 INFO werkzeug Thread-69 : 127.0.0.1 - - [28/Nov/2021 11:05:52] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:05:57,950 INFO main Thread-70 : No exception, hence commit
+2021-11-28 11:05:57,974 INFO main Thread-70 : No exception, hence commit
+2021-11-28 11:05:57,979 INFO main Thread-70 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:05:57,980 INFO werkzeug Thread-70 : 127.0.0.1 - - [28/Nov/2021 11:05:57] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:05:57,994 INFO main Thread-71 : Routed to Edit Deck page successful.
+2021-11-28 11:05:57,994 INFO werkzeug Thread-71 : 127.0.0.1 - - [28/Nov/2021 11:05:57] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:07,191 INFO main Thread-72 : Routed to Create Card page successful.
+2021-11-28 11:06:07,192 INFO werkzeug Thread-72 : 127.0.0.1 - - [28/Nov/2021 11:06:07] "GET /create_card/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:12,526 INFO main Thread-73 : No exception, hence commit
+2021-11-28 11:06:12,552 INFO main Thread-73 : No exception, hence commit
+2021-11-28 11:06:12,557 INFO main Thread-73 : Creation of card successful. Routing to Edit Deck
+2021-11-28 11:06:12,557 INFO werkzeug Thread-73 : 127.0.0.1 - - [28/Nov/2021 11:06:12] "[32mPOST /create_card/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:12,572 INFO main Thread-74 : Routed to Edit Deck page successful.
+2021-11-28 11:06:12,573 INFO werkzeug Thread-74 : 127.0.0.1 - - [28/Nov/2021 11:06:12] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:13,896 INFO main Thread-75 : Routed to Dashboard successful.
+2021-11-28 11:06:13,896 INFO werkzeug Thread-75 : 127.0.0.1 - - [28/Nov/2021 11:06:13] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:06:15,766 INFO main Thread-76 : Routed to Edit Deck page successful.
+2021-11-28 11:06:15,766 INFO werkzeug Thread-76 : 127.0.0.1 - - [28/Nov/2021 11:06:15] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:18,202 INFO main Thread-77 : Routed to Dashboard successful.
+2021-11-28 11:06:18,202 INFO werkzeug Thread-77 : 127.0.0.1 - - [28/Nov/2021 11:06:18] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:06:19,701 INFO main Thread-78 : Routed to Review page successful.
+2021-11-28 11:06:19,702 INFO werkzeug Thread-78 : 127.0.0.1 - - [28/Nov/2021 11:06:19] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:19,725 INFO werkzeug Thread-79 : 127.0.0.1 - - [28/Nov/2021 11:06:19] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:21,926 INFO main Thread-80 : No exception, hence commit
+2021-11-28 11:06:21,941 INFO main Thread-80 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:21,953 INFO main Thread-80 : Average score calculated successfully.
+2021-11-28 11:06:21,953 INFO main Thread-80 : Time stored for updation.
+2021-11-28 11:06:21,953 INFO main Thread-80 : No exception, hence commit
+2021-11-28 11:06:21,961 INFO main Thread-80 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:21,968 INFO main Thread-80 : No exception, hence commit
+2021-11-28 11:06:21,974 INFO main Thread-80 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:21,982 INFO main Thread-80 : No exception, hence commit
+2021-11-28 11:06:21,989 INFO main Thread-80 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:21,990 INFO werkzeug Thread-80 : 127.0.0.1 - - [28/Nov/2021 11:06:21] "[32mPOST /review_deck/1/1/8 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:22,003 INFO main Thread-81 : Routed to Review page successful.
+2021-11-28 11:06:22,003 INFO werkzeug Thread-81 : 127.0.0.1 - - [28/Nov/2021 11:06:22] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:22,018 INFO werkzeug Thread-82 : 127.0.0.1 - - [28/Nov/2021 11:06:22] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:23,561 INFO main Thread-83 : No exception, hence commit
+2021-11-28 11:06:23,575 INFO main Thread-83 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:23,588 INFO main Thread-83 : Average score calculated successfully.
+2021-11-28 11:06:23,588 INFO main Thread-83 : Time stored for updation.
+2021-11-28 11:06:23,588 INFO main Thread-83 : No exception, hence commit
+2021-11-28 11:06:23,595 INFO main Thread-83 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:23,603 INFO main Thread-83 : No exception, hence commit
+2021-11-28 11:06:23,609 INFO main Thread-83 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:23,618 INFO main Thread-83 : No exception, hence commit
+2021-11-28 11:06:23,625 INFO main Thread-83 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:23,626 INFO werkzeug Thread-83 : 127.0.0.1 - - [28/Nov/2021 11:06:23] "[32mPOST /review_deck/1/1/5 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:23,640 INFO main Thread-84 : Routed to Review page successful.
+2021-11-28 11:06:23,641 INFO werkzeug Thread-84 : 127.0.0.1 - - [28/Nov/2021 11:06:23] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:23,657 INFO werkzeug Thread-85 : 127.0.0.1 - - [28/Nov/2021 11:06:23] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:26,264 INFO main Thread-86 : No exception, hence commit
+2021-11-28 11:06:26,280 INFO main Thread-86 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:26,290 INFO main Thread-86 : Average score calculated successfully.
+2021-11-28 11:06:26,290 INFO main Thread-86 : Time stored for updation.
+2021-11-28 11:06:26,290 INFO main Thread-86 : No exception, hence commit
+2021-11-28 11:06:26,299 INFO main Thread-86 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:26,308 INFO main Thread-86 : No exception, hence commit
+2021-11-28 11:06:26,313 INFO main Thread-86 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:26,323 INFO main Thread-86 : No exception, hence commit
+2021-11-28 11:06:26,329 INFO main Thread-86 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:26,329 INFO werkzeug Thread-86 : 127.0.0.1 - - [28/Nov/2021 11:06:26] "[32mPOST /review_deck/1/1/7 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:26,345 INFO main Thread-87 : Routed to Review page successful.
+2021-11-28 11:06:26,345 INFO werkzeug Thread-87 : 127.0.0.1 - - [28/Nov/2021 11:06:26] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:26,356 INFO werkzeug Thread-88 : 127.0.0.1 - - [28/Nov/2021 11:06:26] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:27,795 INFO main Thread-89 : No exception, hence commit
+2021-11-28 11:06:27,812 INFO main Thread-89 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:27,822 INFO main Thread-89 : Average score calculated successfully.
+2021-11-28 11:06:27,822 INFO main Thread-89 : Time stored for updation.
+2021-11-28 11:06:27,823 INFO main Thread-89 : No exception, hence commit
+2021-11-28 11:06:27,830 INFO main Thread-89 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:27,838 INFO main Thread-89 : No exception, hence commit
+2021-11-28 11:06:27,842 INFO main Thread-89 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:27,851 INFO main Thread-89 : No exception, hence commit
+2021-11-28 11:06:27,858 INFO main Thread-89 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:27,858 INFO werkzeug Thread-89 : 127.0.0.1 - - [28/Nov/2021 11:06:27] "[32mPOST /review_deck/1/1/2 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:27,873 INFO main Thread-90 : Routed to Review page successful.
+2021-11-28 11:06:27,874 INFO werkzeug Thread-90 : 127.0.0.1 - - [28/Nov/2021 11:06:27] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:27,895 INFO werkzeug Thread-91 : 127.0.0.1 - - [28/Nov/2021 11:06:27] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:30,247 INFO main Thread-92 : No exception, hence commit
+2021-11-28 11:06:30,253 INFO main Thread-92 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:30,264 INFO main Thread-92 : Average score calculated successfully.
+2021-11-28 11:06:30,264 INFO main Thread-92 : Time stored for updation.
+2021-11-28 11:06:30,264 INFO main Thread-92 : No exception, hence commit
+2021-11-28 11:06:30,271 INFO main Thread-92 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:30,281 INFO main Thread-92 : No exception, hence commit
+2021-11-28 11:06:30,287 INFO main Thread-92 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:30,295 INFO main Thread-92 : No exception, hence commit
+2021-11-28 11:06:30,300 INFO main Thread-92 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:30,301 INFO werkzeug Thread-92 : 127.0.0.1 - - [28/Nov/2021 11:06:30] "[32mPOST /review_deck/1/1/8 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:30,318 INFO main Thread-93 : Routed to Review page successful.
+2021-11-28 11:06:30,319 INFO werkzeug Thread-93 : 127.0.0.1 - - [28/Nov/2021 11:06:30] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:30,331 INFO werkzeug Thread-94 : 127.0.0.1 - - [28/Nov/2021 11:06:30] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:31,246 INFO main Thread-95 : No exception, hence commit
+2021-11-28 11:06:31,253 INFO main Thread-95 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:31,273 INFO main Thread-95 : Average score calculated successfully.
+2021-11-28 11:06:31,273 INFO main Thread-95 : Time stored for updation.
+2021-11-28 11:06:31,273 INFO main Thread-95 : No exception, hence commit
+2021-11-28 11:06:31,281 INFO main Thread-95 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:31,290 INFO main Thread-95 : No exception, hence commit
+2021-11-28 11:06:31,297 INFO main Thread-95 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:31,306 INFO main Thread-95 : No exception, hence commit
+2021-11-28 11:06:31,311 INFO main Thread-95 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:31,311 INFO werkzeug Thread-95 : 127.0.0.1 - - [28/Nov/2021 11:06:31] "[32mPOST /review_deck/1/1/10 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:31,325 INFO main Thread-96 : Routed to Review page successful.
+2021-11-28 11:06:31,325 INFO werkzeug Thread-96 : 127.0.0.1 - - [28/Nov/2021 11:06:31] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:31,340 INFO werkzeug Thread-97 : 127.0.0.1 - - [28/Nov/2021 11:06:31] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:33,686 INFO main Thread-98 : No exception, hence commit
+2021-11-28 11:06:33,700 INFO main Thread-98 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:06:33,711 INFO main Thread-98 : Average score calculated successfully.
+2021-11-28 11:06:33,711 INFO main Thread-98 : Time stored for updation.
+2021-11-28 11:06:33,712 INFO main Thread-98 : No exception, hence commit
+2021-11-28 11:06:33,718 INFO main Thread-98 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:06:33,728 INFO main Thread-98 : No exception, hence commit
+2021-11-28 11:06:33,734 INFO main Thread-98 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:06:33,741 INFO main Thread-98 : No exception, hence commit
+2021-11-28 11:06:33,747 INFO main Thread-98 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:06:33,748 INFO werkzeug Thread-98 : 127.0.0.1 - - [28/Nov/2021 11:06:33] "[32mPOST /review_deck/1/1/1 HTTP/1.1[0m" 302 -
+2021-11-28 11:06:33,760 INFO main Thread-99 : Routed to Review page successful.
+2021-11-28 11:06:33,761 INFO werkzeug Thread-99 : 127.0.0.1 - - [28/Nov/2021 11:06:33] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:06:33,775 INFO werkzeug Thread-100 : 127.0.0.1 - - [28/Nov/2021 11:06:33] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:06:34,924 INFO main Thread-101 : Routed to Dashboard successful.
+2021-11-28 11:06:34,924 INFO werkzeug Thread-101 : 127.0.0.1 - - [28/Nov/2021 11:06:34] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:06:38,313 INFO main Thread-102 : Login page entered for user
+2021-11-28 11:06:38,313 INFO werkzeug Thread-102 : 127.0.0.1 - - [28/Nov/2021 11:06:38] "GET / HTTP/1.1" 200 -
+2021-11-28 11:08:56,965 INFO main MainThread : Staring Local Development.
+2021-11-28 11:08:56,965 INFO main MainThread : App setup complete
+2021-11-28 11:08:56,991 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-28 11:09:03,847 INFO main Thread-1 : Login page entered for user
+2021-11-28 11:09:03,853 INFO werkzeug Thread-1 : 127.0.0.1 - - [28/Nov/2021 11:09:03] "GET / HTTP/1.1" 200 -
+2021-11-28 11:09:07,872 INFO main Thread-2 : Login successful. Routing to Dashboard
+2021-11-28 11:09:07,873 INFO werkzeug Thread-2 : 127.0.0.1 - - [28/Nov/2021 11:09:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-11-28 11:09:07,883 INFO main Thread-3 : Routed to Dashboard successful.
+2021-11-28 11:09:07,889 INFO werkzeug Thread-3 : 127.0.0.1 - - [28/Nov/2021 11:09:07] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:09:08,014 INFO werkzeug Thread-4 : 127.0.0.1 - - [28/Nov/2021 11:09:08] "GET /static/style.css HTTP/1.1" 200 -
+2021-11-28 11:09:14,126 INFO main Thread-5 : Login page entered for user
+2021-11-28 11:09:14,126 INFO werkzeug Thread-5 : 127.0.0.1 - - [28/Nov/2021 11:09:14] "GET / HTTP/1.1" 200 -
+2021-11-28 11:09:37,107 INFO main Thread-6 : Login successful. Routing to Dashboard
+2021-11-28 11:09:37,107 INFO werkzeug Thread-6 : 127.0.0.1 - - [28/Nov/2021 11:09:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-11-28 11:09:37,112 INFO main Thread-7 : Routed to Dashboard successful.
+2021-11-28 11:09:37,112 INFO werkzeug Thread-7 : 127.0.0.1 - - [28/Nov/2021 11:09:37] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:09:37,129 INFO werkzeug Thread-8 : 127.0.0.1 - - [28/Nov/2021 11:09:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:09:38,365 INFO main Thread-9 : Routed to Edit Deck page successful.
+2021-11-28 11:09:38,369 INFO werkzeug Thread-9 : 127.0.0.1 - - [28/Nov/2021 11:09:38] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:09:38,385 INFO werkzeug Thread-10 : 127.0.0.1 - - [28/Nov/2021 11:09:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:09:42,628 INFO main Thread-11 : Routed to Edit card page successful.
+2021-11-28 11:09:42,630 INFO werkzeug Thread-11 : 127.0.0.1 - - [28/Nov/2021 11:09:42] "GET /edit_card/1/1/8 HTTP/1.1" 200 -
+2021-11-28 11:09:44,669 INFO main Thread-12 : Routed to Edit Deck page successful.
+2021-11-28 11:09:44,670 INFO werkzeug Thread-12 : 127.0.0.1 - - [28/Nov/2021 11:09:44] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:09:44,688 INFO werkzeug Thread-13 : 127.0.0.1 - - [28/Nov/2021 11:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:09:45,887 INFO main Thread-14 : Routed to Dashboard successful.
+2021-11-28 11:09:45,887 INFO werkzeug Thread-14 : 127.0.0.1 - - [28/Nov/2021 11:09:45] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:09:45,905 INFO werkzeug Thread-15 : 127.0.0.1 - - [28/Nov/2021 11:09:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:09:47,151 INFO main Thread-16 : Routed to Review page successful.
+2021-11-28 11:09:47,153 INFO werkzeug Thread-16 : 127.0.0.1 - - [28/Nov/2021 11:09:47] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:09:47,168 INFO werkzeug Thread-17 : 127.0.0.1 - - [28/Nov/2021 11:09:47] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:09:49,727 INFO main Thread-18 : Routed to Dashboard successful.
+2021-11-28 11:09:49,728 INFO werkzeug Thread-18 : 127.0.0.1 - - [28/Nov/2021 11:09:49] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:09:49,752 INFO werkzeug Thread-19 : 127.0.0.1 - - [28/Nov/2021 11:09:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:09:54,854 INFO main Thread-20 : Login page entered for user
+2021-11-28 11:09:54,855 INFO werkzeug Thread-20 : 127.0.0.1 - - [28/Nov/2021 11:09:54] "GET / HTTP/1.1" 200 -
+2021-11-28 11:12:38,002 INFO main Thread-21 : Login page entered for user
+2021-11-28 11:12:38,002 INFO werkzeug Thread-21 : 127.0.0.1 - - [28/Nov/2021 11:12:38] "GET / HTTP/1.1" 200 -
+2021-11-28 11:12:42,167 INFO main MainThread : Staring Local Development.
+2021-11-28 11:12:42,168 INFO main MainThread : App setup complete
+2021-11-28 11:12:42,197 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-28 11:12:51,828 INFO main Thread-1 : Login page entered for user
+2021-11-28 11:12:51,831 INFO werkzeug Thread-1 : 127.0.0.1 - - [28/Nov/2021 11:12:51] "GET / HTTP/1.1" 200 -
+2021-11-28 11:12:55,269 INFO main Thread-2 : Login successful. Routing to Dashboard
+2021-11-28 11:12:55,270 INFO werkzeug Thread-2 : 127.0.0.1 - - [28/Nov/2021 11:12:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-11-28 11:12:55,279 INFO main Thread-3 : Routed to Dashboard successful.
+2021-11-28 11:12:55,286 INFO werkzeug Thread-3 : 127.0.0.1 - - [28/Nov/2021 11:12:55] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:12:55,421 INFO werkzeug Thread-4 : 127.0.0.1 - - [28/Nov/2021 11:12:55] "GET /static/style.css HTTP/1.1" 200 -
+2021-11-28 11:13:21,604 INFO main Thread-5 : Routed to Dashboard successful.
+2021-11-28 11:13:21,605 INFO werkzeug Thread-5 : 127.0.0.1 - - [28/Nov/2021 11:13:21] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:13:21,617 INFO werkzeug Thread-6 : 127.0.0.1 - - [28/Nov/2021 11:13:21] "GET /static/style.css HTTP/1.1" 200 -
+2021-11-28 11:13:24,581 INFO main Thread-7 : Routed to Create Deck page successful.
+2021-11-28 11:13:24,583 INFO werkzeug Thread-7 : 127.0.0.1 - - [28/Nov/2021 11:13:24] "GET /create_deck/1 HTTP/1.1" 200 -
+2021-11-28 11:13:25,909 INFO main Thread-8 : Routed to Dashboard successful.
+2021-11-28 11:13:25,910 INFO werkzeug Thread-8 : 127.0.0.1 - - [28/Nov/2021 11:13:25] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:13:25,932 INFO werkzeug Thread-9 : 127.0.0.1 - - [28/Nov/2021 11:13:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:13:27,528 INFO main Thread-10 : Routed to Edit Deck page successful.
+2021-11-28 11:13:27,535 INFO werkzeug Thread-10 : 127.0.0.1 - - [28/Nov/2021 11:13:27] "GET /edit_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:13:27,564 INFO werkzeug Thread-11 : 127.0.0.1 - - [28/Nov/2021 11:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:13:29,391 INFO main Thread-12 : Routed to Dashboard successful.
+2021-11-28 11:13:29,391 INFO werkzeug Thread-12 : 127.0.0.1 - - [28/Nov/2021 11:13:29] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:13:29,411 INFO werkzeug Thread-13 : 127.0.0.1 - - [28/Nov/2021 11:13:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:13:30,301 INFO main Thread-14 : Routed to Review page successful.
+2021-11-28 11:13:30,305 INFO werkzeug Thread-14 : 127.0.0.1 - - [28/Nov/2021 11:13:30] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:13:30,326 INFO werkzeug Thread-15 : 127.0.0.1 - - [28/Nov/2021 11:13:30] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:13:32,787 INFO main Thread-16 : No exception, hence commit
+2021-11-28 11:13:32,805 INFO main Thread-16 : Updating of score to Card successful. Moving to update Review
+2021-11-28 11:13:32,821 INFO main Thread-16 : Average score calculated successfully.
+2021-11-28 11:13:32,821 INFO main Thread-16 : Time stored for updation.
+2021-11-28 11:13:32,821 INFO main Thread-16 : No exception, hence commit
+2021-11-28 11:13:32,828 INFO main Thread-16 : Updating of score and review to Review successful. Moving to update Deck
+2021-11-28 11:13:32,839 INFO main Thread-16 : No exception, hence commit
+2021-11-28 11:13:32,845 INFO main Thread-16 : Old review_id row in Review table deleted successfully.
+2021-11-28 11:13:32,854 INFO main Thread-16 : No exception, hence commit
+2021-11-28 11:13:32,861 INFO main Thread-16 : Updating of review_id to Deck successful. Routing to Review Page
+2021-11-28 11:13:32,863 INFO werkzeug Thread-16 : 127.0.0.1 - - [28/Nov/2021 11:13:32] "[32mPOST /review_deck/1/1/3 HTTP/1.1[0m" 302 -
+2021-11-28 11:13:32,877 INFO main Thread-17 : Routed to Review page successful.
+2021-11-28 11:13:32,877 INFO werkzeug Thread-17 : 127.0.0.1 - - [28/Nov/2021 11:13:32] "GET /review_deck/1/1 HTTP/1.1" 200 -
+2021-11-28 11:13:32,892 INFO werkzeug Thread-18 : 127.0.0.1 - - [28/Nov/2021 11:13:32] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2021-11-28 11:13:33,715 INFO main Thread-19 : Routed to Dashboard successful.
+2021-11-28 11:13:33,716 INFO werkzeug Thread-19 : 127.0.0.1 - - [28/Nov/2021 11:13:33] "GET /dashboard/1 HTTP/1.1" 200 -
+2021-11-28 11:13:33,731 INFO werkzeug Thread-20 : 127.0.0.1 - - [28/Nov/2021 11:13:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-11-28 11:13:34,788 INFO main Thread-21 : Login page entered for user
+2021-11-28 11:13:34,788 INFO werkzeug Thread-21 : 127.0.0.1 - - [28/Nov/2021 11:13:34] "GET / HTTP/1.1" 200 -

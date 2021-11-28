@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Flashcard App
+  description: >
+    <h3> Error Codes </h3> 
+    <table>
+      <thead>
+        <th>Resource</th>
+        <th>Error Code</th>
+        <th>Message</th>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Course</td>
+        <td>COURSE001</td>
+        <td>Course Name is required and should be string.</td>
+      </tr>
+    </tbody>
+    </table>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Create a Card</title>
+    </head>
+    <body>
+        <h1>Create a Card</h1>
+        <form action = '/create_card/{{user_id}}/{{deck_id}}' method="POST">
+            <label>Front Text : </label>
+            <input type="text" name = "front_text" required />
+            <br>
+            <br>
+            <label>Back Text : </label>
+            <input type="text" name = "back_text" required />
+            <br>
+            <br>
+            <input type="submit" value = "Submit">
+        </form>
+        <br>
+        <br>
+        <a href = "/edit_deck/{{user_id}}/{{deck_id}}">Back to Editing the Deck</a>
+    </body>
+</html>

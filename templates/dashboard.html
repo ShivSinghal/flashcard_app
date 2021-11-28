@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    </head>
+    <body>
+        <h1>Dashboard</h1>
+        {% with messages = get_flashed_messages() %}  
+        {% if messages %}  
+              {% for message in messages %}  
+                   <p>{{ message }}</p>  
+              {% endfor %}  
+        {% endif %}  
+        {% endwith %}  
+        {% if deck_list | length %}
+            <table>
+                <tr>
+                    <th>Deck No.</th>
+                    <th>Deck Name</th>
+                    <th>Last reviewed</th>
+                    <th>Score (Out of 3)</th>
+                    <th>Edit Deck</th>
+                    <th>Delete Deck</th>
+                    <th>Review Deck</th>
+                </tr>
+                {% for deck in deck_list %}
+                <tr>
+                    <td>{{loop.index}}</td>
+                    <td>{{deck[0]["deck_name"]}}</td>
+                    <td>{{deck[1]["review_time"]}}</td>
+                    <td>{{deck[1]["score"]}}</td>
+                    <td><a href = '/edit_deck/{{user_id}}/{{deck[0]["deck_id"]}}'>Edit</a></td>
+                    <td><a href = '/delete_deck/{{user_id}}/{{deck[0]["deck_id"]}}'>Delete</a></td>
+                    <td><a href = '/review_deck/{{user_id}}/{{deck[0]["deck_id"]}}'>Review</a></td>
+                </tr>    
+                {% endfor %} 
+            </table> 
+        {% else %}
+            <p>No Deck found. Create a deck now!</p>
+        {% endif %}
+        <br>
+        <br>
+        <button><a href = '/create_deck/{{user_id}}'>Create a new deck</a></button> 
+        <br>
+        <br>
+        <a href = "/">Logout</a>
+    </body>
+</html>

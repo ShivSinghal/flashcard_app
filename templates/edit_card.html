@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Edit a Card</title>
+    </head>
+    <body>
+        <h1>Edit a Card</h1>
+        <form action = '/edit_card/{{user_id}}/{{deck_id}}/{{card["card_id"]}}' method="POST">
+            <p>Front Text (Old) : {{card["front"]}}</p>
+            <br>
+            <label>Front Text (New) : </label>
+            <input type="text" name = "front_text" required />
+            <br>
+            <br>
+            <p>Back Text (Old) : {{card["back"]}}</p>
+            <br>
+            <label>Back Text (New) : </label>
+            <input type="text" name = "back_text" required />
+            <br>
+            <br>
+            <input type="submit" value = "Submit">
+        </form>
+        <br>
+        <br>
+        <a href = "/edit_deck/{{user_id}}/{{deck_id}}">Back to editing the Deck, if no edits</a>
+    </body>
+</html>
