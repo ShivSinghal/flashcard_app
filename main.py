@@ -22,9 +22,9 @@ app = create_app()
 # Import all the controllers so they are loaded
 from application.controllers import *
 
-# Add all restful controllers
-from application.api import *
-api.add_resource(DeckAPI, "/api/deck/<int:user_id>")
+# # Add all restful controllers
+# from application.api import *
+# api.add_resource(DeckAPI, "/api/deck/<int:user_id>")
 
 
 if __name__ == '__main__':
