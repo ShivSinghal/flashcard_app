@@ -31,5 +31,5 @@ if __name__ == '__main__':
   # Run the Flask app
   app.secret_key = 'abc'
   app.run(
-    # debug= True
+    debug= True
   )
